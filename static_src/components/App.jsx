@@ -1,10 +1,12 @@
 import React from 'react';
 
+import { Message } from './Messages/Messages.jsx' 
 
-export default class App extends React.Component {
-   render() {
-       return (
-           <h1>Наш первый React-компонент</h1>
-       )
-   }
+const App = () => {
+    return <div id='test_id'>
+        <H1>Hello from React</H1>
+        <Message text='New message'/>
+        </div>;
 }
+
+export { App };

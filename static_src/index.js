@@ -1,9 +1,6 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
 
-const App = () => {
-   //return React.createElement('div', {id: 'test-id'}, 'Hello from React');
-   return <div id='test_id'>Hello from React new</div>
-}
+import { App } from './components/App.jsx';
 
 ReactDOM.render(<App />, document.querySelector('#root'));
